@@ -8,6 +8,10 @@ public class Teacher extends Person {
         super(name,surname);
     }
 
+    @Override
+    public String toString() {
+        return "\nID: "+this.getId()+" Name: "+ this.getName() +" Surname: "+this.getSurname();
+    }
 
 
 }
